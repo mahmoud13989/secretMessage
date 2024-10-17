@@ -1,0 +1,39 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <title>Secret message Maker</title>
+    <link rel="stylesheet" href="">
+</head>
+<style>
+    .row{
+        margin-top: 25vh;
+    }
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" integrity="sha512-UJfAaOlIRtdR+0P6C3KUoTDAxVTuy3lnSXLyLKlHYJlcSU8Juge/mjeaxDNMlw9LgeIotgz5FP8eUQPhX1q10A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<body>
+    <div class="row">
+        <div class="col s8 offset-s2">
+            <div class="card-panel message-show hide">
+                    <h1></h1>
+                <div>
+                    <a href="./index.html">Create Yours</a>
+                </div>
+            </div>
+            <div id ="ordinary-card" class="card-panel form-message">
+                <form id="main-form">
+                    <label>Enter yout Secret Message</label>
+                    <input type="text" id="ordinary-input">
+                    <button class="btn">Create</button>
+                </form>
+            </div>
+            <div id="encrypted-card" class="card-panel hide">
+                <input type="text" id="encrypted-input">
+                <label >Share this link with a Friend</label>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
